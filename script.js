@@ -19,9 +19,9 @@ function gameLoop() {
     if (drop.y > c.height) {
       raindrops.splice(k,1);
     } else {
-      ctx.beginPath()
+      ctx.beginPath();
       ctx.rect(drop.x,drop.y,2,4);
-      ctx.fillStyle = "blue";
+      ctx.fillStyle = "pink";
       ctx.fill();
     }
   }
